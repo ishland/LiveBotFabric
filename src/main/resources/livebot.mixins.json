@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ishland.fabric.livebot.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "server.MixinCommandManager",
+    "server.MixinDedicatedServerInstance",
+    "server.MixinDedicatedServerShutdown",
+    "server.MixinDedicatedServerTick"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

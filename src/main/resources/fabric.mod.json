@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "livebot",
+  "version": "${version}",
+  "name": "LiveBot",
+  "description": "LiveBot",
+  "authors": [
+    "ishland"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "AGPLv3",
+  "icon": "assets/livebot/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.ishland.fabric.livebot.EntryPoint"
+    ]
+  },
+  "mixins": [
+    "livebot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "minecraft": ">=1.17.1"
+  }
+}
